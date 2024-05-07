@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accordion</title>
+<link rel="stylesheet" href="acordation.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+
+body {
+    font-family: 'Montserrat';
+}
+
+.ab_accordion {
+    width: 90%;
+   margin-left: -13%;
+}
+
+.ab_accordion_content {
+    display: none;
+}
+
+.ab_accordion_header {
+    cursor: pointer;
+    background-color: #ffffff;
+    padding: 13px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #646464;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    margin-top: 16px;
+    border-radius: 3px;
+}
+
+.ab_accordion_header.active {
+    background-color: #6E7E1D;;
+    color: #fff;
+   
+}
+
+.ab_accordion_content {
+    padding: 12px;
+    animation: fade-in-up 0.3s ease-in-out;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.ab_accordion_header i {
+    float: right;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.ab_accordion_header.active i {
+    transform: rotate(180deg);
+}
+
+@keyframes fade-in-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media screen and (max-width: 720px) {
+    .ab_accordion {
+        padding-left: 0px;
+        margin: auto;
+    }
+}
+</style>
+</head>
+<body>
+
+    <div class="FAQ">
+
+        <div class="faqleft">
+       <p class="faqheading">Frequently Asked Questions</p>
+       <p class="faqheadingDeatils"> Explore our FAQs for quick answers
+        to common inquiries and concerns.</p>
+        
+        </div>
+        <div class="faqright">
+            <div class="ab_accordion">
+                <div class="ab_accordion_section">
+                    <div class="ab_accordion_header" onclick="toggleAccordion(this)">What types of materials can be exchanged on BuildersTreat?<i class="fa-solid fa-plus"></i></div>
+                    <div class="ab_accordion_content">
+                        Content for section 1 goes here.
+                    </div>
+                </div>
+                <div class="ab_accordion_section">
+                    <div class="ab_accordion_header" onclick="toggleAccordion(this)">Is BuildersTreat available in multiple countries? <i class="fa-solid fa-plus"></i></div>
+                    <div class="ab_accordion_content">
+                        Content for section 2 goes here.
+                    </div>
+                </div>
+                <div class="ab_accordion_section">
+                    <div class="ab_accordion_header" onclick="toggleAccordion(this)">Can BuildersTreat users access customer support? <i class="fa-solid fa-plus"></i></div>
+                    <div class="ab_accordion_content">
+                        Content for section 3 goes here.
+                    </div>
+                </div>
+                <div class="ab_accordion_section">
+                    <div class="ab_accordion_header" onclick="toggleAccordion(this)">Who can use BuildersTreat?<i class="fa-solid fa-plus"></i></div>
+                    <div class="ab_accordion_content">
+                        Content for section 2 goes here.
+                    </div>
+                </div>
+                <div class="ab_accordion_section">
+                    <div class="ab_accordion_header" onclick="toggleAccordion(this)">How does BuildersTreat handle transactions and payments? <i class="fa-solid fa-plus"></i></div>
+                    <div class="ab_accordion_content">
+                        Content for section 3 goes here.
+                    </div>
+                </div>
+                <div class="ab_accordion_section">
+                    <div class="ab_accordion_header" onclick="toggleAccordion(this)">How can I get started with BuildersTreat?<i class="fa-solid fa-plus"></i></div>
+                    <div class="ab_accordion_content">
+                        Content for section 3 goes here.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+function toggleAccordion(header) {
+    header.classList.toggle('active');
+    var content = header.nextElementSibling;
+    if (content.style.display === "block") {
+        content.style.display = "none";
+    } else {
+        content.style.display = "block";
+    }
+}
+</script>
+
+</body>
+</html>

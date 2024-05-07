@@ -1,0 +1,254 @@
+.misssssioncontainer{
+
+width: 1199px;
+height: 428px;
+left: 120px;
+top: 1205px;
+
+
+
+/* Rectangle 12354 */
+
+position: absolute;
+width: 386px;
+height: 428px;
+left: 933px;
+top: 1205px;
+background: #6E7E1D;
+
+
+/* Image */
+
+position: absolute;
+width: 576.94px;
+height: 369.95px;
+left: 710px;
+top: 1233.59px;
+
+
+
+/* Image */
+
+position: absolute;
+width: 576.94px;
+height: 369.95px;
+left: 710px;
+top: 1233.59px;
+
+background: #D9D9D9;
+
+
+/* Beautiful view of a construction site in a city during sunset */
+
+position: absolute;
+width: 659.65px;
+height: 376.88px;
+left: 661.82px;
+top: 1230.12px;
+
+background: url(.png);
+
+
+/* BuildersTreat Mission */
+
+position: absolute;
+width: 405px;
+height: 60px;
+left: 121px;
+top: 1239px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height, or 150% */
+letter-spacing: -0.5px;
+
+/* Heading */
+color: #1B3138;
+
+
+
+/* Mission Statement */
+
+position: absolute;
+width: 280px;
+height: 29px;
+left: 120px;
+top: 1205px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #6E7E1D;
+
+
+
+/* At BuildersTreat, our mission is to revolutionize the construction and demolition waste recycling industry by providing a seamless and sustainable solution for material exchange. We are committed to fostering a circular economy where surplus materials find new life, reducing waste, and minimizing environmental impact. With our innovative platform, we empower businesses and individuals to connect, collaborate, and contribute to a greener future. By prioritizing transparency, integrity, and efficiency, we aim to be the trusted partner of choice for all stakeholders in the construction industry, driving meaningful change and creating a more sustainable world for generations to come. */
+
+position: absolute;
+width: 559px;
+height: 290px;
+left: 121px;
+top: 1323px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 180%;
+/* or 29px */
+letter-spacing: 0.15px;
+
+/* Medium Dark */
+color: #646464;
+
+
+}
+
+.missioncontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.missionleftbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.missionstatement{
+    margin-top: 10%;
+height: 29px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #6E7E1D;
+}
+
+.missionBuildersTreat{
+    margin-top: -1%;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+letter-spacing: -0.5px;
+color: #1B3138;
+}
+.missiondetails{
+    margin-top: -2%;
+width: 83%;
+height: 290px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 180%;
+letter-spacing: 0.15px;
+
+/* Medium Dark */
+color: #646464;
+
+}
+
+.missionrightbox{
+    margin-top: 5%;
+    width: 26%;
+    background: #6E7E1D;
+    height: 390px;
+    /* padding-right: 1%; */
+    margin-left: 120px;
+
+}
+.imagebackground{
+    margin-top: 2%;
+    margin-left: -17%;
+position: absolute;
+width: 40%;
+}
+
+
+
+
+
+
+
+
+/* second box css */
+.missionsecondcontainer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+
+
+.missionsecondleftbox{
+width: 50%;
+}
+
+.missionsecondrightbox{
+ width: 48%;
+
+ 
+}
+.missinimagess{
+width: 90%;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 40.5%, #000000 100%);
+}
+
+.firstline{
+   /* margin-top: 5%; */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 180%;
+letter-spacing: 0.0015em;
+text-transform: uppercase;
+
+color: #6E7E1D;
+}
+
+
+
+.headingofmission{
+    margin-top: -4%;
+    /* width: 120%; */
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+color: #1B3138;
+}
+
+.detailsofmission{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 180%;
+/* or 29px */
+letter-spacing: 0.0015em;
+
+color: #646464;
+
+
+}

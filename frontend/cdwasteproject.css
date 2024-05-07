@@ -1,0 +1,93 @@
+.projectcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectheading{
+    /* Knowledge center about our various C&D waste projects */
+    width: 60%;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+/* or 150% */
+text-align: center;
+letter-spacing: -0.5px;
+
+/* Dark */
+color: #323232;
+
+
+}
+.projectsecondcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto
+}
+.projectleftbox{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+/* Rectangle 2075 */
+height: 230px;
+background: #FFFFFF;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+margin: 20px;
+}
+.projectdetailssbox{
+    padding-left: 10px;
+}
+.projectleftbox img{
+ width: 230px;
+ height: 230px;
+    }
+.projectblog{
+    margin-left: 13px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 60px;
+letter-spacing: -0.5px;
+
+/* Dark */
+color: #323232;
+
+
+
+}
+
+.projectblogdetails{
+/* In-depth research papers highlighting the environmental impact of C&D waste and the benefits of recycling and re-using such materials... */
+margin-top: -30px;
+margin-left: 13px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 180%;
+/* or 29px */
+letter-spacing: 0.0015em;
+color: #646464;
+
+padding-right: 10px;
+
+}
+
+
+
+.projectrightbox{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Rectangle 2075 */
+    height: 230px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+    margin: 20px;
+}

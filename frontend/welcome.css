@@ -1,0 +1,95 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    height: auto;
+}
+
+.leftsideContainer{
+    width: 50%;
+    margin-top: 40px;
+}
+.welcometobuildersTreat {
+    color: #6E7E1D;
+    font-size: 13px;
+    font-family: 'Montserrat';
+    margin-bottom: -30px;
+    text-transform: uppercase; 
+}
+.leftsideContainer h1
+  {
+    font-family: 'Ubuntu';;
+font-weight: bold;
+font-size: 56px;
+  }
+
+  .welcomeDetails{
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #646464;
+    line-height: 36px;
+    margin-top: -30px;
+    padding-right: 4%;
+  }
+
+.buttongetStared{
+    color: white;
+    font-size: 16px;
+    background-color: #6E7E1D;
+    padding: 20px;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight:400;
+    margin-top: 15px;
+}
+
+
+  
+.rightsideContainer{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    margin-left: 19px;
+    margin-top: 20px;
+    background-color: red;
+}
+.rightsideContainer {
+    position: relative;
+   
+   
+}
+
+.greenborderrighttop {
+    position: absolute;
+    top: -25px;
+    margin-left: 25px;
+    width: 576px;
+    height: 576px;
+    background-color: #6E7E1D;
+    z-index: 0; 
+}
+
+.welcomevedio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+@media screen and (max-width: 720px) {
+    .mainContainer {
+        flex-direction: column; /* Change flex direction to column */
+        align-items: flex-start; /* Adjust alignment as needed */
+    }
+     .rightsideContainer {
+        width: 100%;
+    }
+    .leftsideContainer{
+        width: 100%;
+    }
+}
+

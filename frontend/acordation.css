@@ -1,0 +1,57 @@
+.FAQ{
+display: flex;
+justify-content: center;
+width: 100%;
+/* margin: auto; */
+background-color: #FAFFE1;
+padding-bottom: 80px;
+}
+.faqleft{
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+.faqright{
+  width: 60%;
+  padding-top: 4%;
+  
+}
+.faqheading{
+    /* Frequently Asked Questions */
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 64px;
+/* or 160% */
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #1B3138;
+
+}
+.faqheadingDeatils{
+/* Explore our FAQs for quick answers to common inquiries and concerns. */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #646464;
+
+
+}
+
+@media screen and (max-width: 720px) {
+    .FAQ{
+        flex-direction: column;
+        margin: auto;
+    }
+    .faqleft{
+        width: 100%;
+    }
+    .faqright{
+        width: 100%;
+        margin: auto;
+    }
+}
