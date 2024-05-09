@@ -5,6 +5,7 @@ width: 100%;
 /* margin: auto; */
 background-color: #FAFFE1;
 padding-bottom: 80px;
+
 }
 .faqleft{
     width: 40%;
@@ -52,6 +53,88 @@ color: #646464;
     }
     .faqright{
         width: 100%;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------- */
+body {
+    font-family: 'Montserrat';
+}
+
+.ab_accordion {
+    width: 90%;
+   margin-left: -13%;
+}
+
+.ab_accordion_content {
+    display: none;
+}
+
+.ab_accordion_header {
+    cursor: pointer;
+    background-color: #ffffff;
+    padding: 13px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #646464;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    margin-top: 16px;
+    border-radius: 3px;
+}
+
+.ab_accordion_header.active {
+    background-color: #6E7E1D;;
+    color: #fff;
+   
+}
+
+.ab_accordion_content {
+    padding: 12px;
+    animation: fade-in-up 0.3s ease-in-out;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.ab_accordion_header i {
+    float: right;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.ab_accordion_header.active i {
+    transform: rotate(180deg);
+}
+
+@keyframes fade-in-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media screen and (max-width: 720px) {
+    .ab_accordion {
+        padding-left: 0px;
         margin: auto;
     }
 }

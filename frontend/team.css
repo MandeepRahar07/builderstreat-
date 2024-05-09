@@ -1,0 +1,142 @@
+body{
+    background: #F2F2F2;
+
+}
+.team-main{
+    display: flex;
+    justify-content: center;
+   /* max-height: 1200px; */
+   height: 530px;
+   /* height: 100%; */
+   
+   
+    margin-top:80px;
+
+
+}
+@media only screen and (max-width: 1200px) {
+    .team-main{
+   
+        height: 880px;
+        
+        
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .team-main{
+   
+        height: 1200px;
+        
+        
+    }
+}
+
+
+.team-bg{
+background-color: #323232;
+height:225px;
+display: flex;
+flex-direction: column;
+background-image: url("./images/design.png");
+/* width: 85%; */
+width:1300px;
+
+
+
+}
+.tl1{
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45.96px;
+    text-align: center;
+    color:#FFFFFF;
+    margin-top: 30px;;
+    
+}
+.tl2
+{
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: #D8D8D8;
+
+    
+}
+.tcol
+{
+    gap:10px;
+    flex-grow: 1;
+    width: calc((100% - 20px) / 3);
+   padding: 0px;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+    max-width:360px;
+    width: 100%;
+    /* width:100%; */
+      background-color: #6E7E1D;
+      border-radius: 10px;
+      /* margin-top: 20px;; */
+}
+.trow
+{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around;
+     
+     gap: 5px;
+}
+.tcont
+{
+    margin-top:20px; ;
+}
+.name
+{
+    background-color: #FFFFFF;
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.0015em;
+text-align: center;
+color: #6E7E1D;
+width:100%;
+
+
+
+
+}
+.name3
+{
+    margin-top:25px; 
+}
+.title
+{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25.2px;
+    letter-spacing: 0.0015em;
+    text-align: center;
+    color:#FFFFFF;
+    
+
+}
+.info
+{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 25.2px;
+letter-spacing: 0.0015em;
+text-align: center;
+
+    color: #FFFFFF;
+    
+}

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 .projectheading{
     /* Knowledge center about our various C&D waste projects */
@@ -20,23 +21,76 @@ color: #323232;
 
 
 }
+.cd-main
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
 .projectsecondcontainer{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    margin: auto
+    /* width: 500px; */
+    /* margin: auto; */
+
+
+}
+/* @media only screen and (max-width: 1000px) {
+    .projectsecondcontainer{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}  */
+.projectrightbox{
+   
+/* width: 50%; */
+display: flex;
+/* justify-content: center;
+align-items: center; */
+/* Rectangle 2075 */
+/* height: 250px; */
+background: #FFFFFF;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+margin: 10px;
+padding-left: 0px;
+padding-top: 10px;
+padding-bottom: 10px;
+/* width: 100%; */
 }
 .projectleftbox{
-width: 50%;
+/* width: 50%; */
 display: flex;
-justify-content: center;
-align-items: center;
+/* justify-content: center;
+align-items: center; */
 /* Rectangle 2075 */
 height: 230px;
 background: #FFFFFF;
 box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
-margin: 20px;
+margin: 10px;
+padding-left: 0px;
+/* padding-top: 10px;
+padding-bottom: 10px; */
+/* width: 100%; */
+width: 500px;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+    .projectsecondcontainer{
+      
+       flex-direction: column;
+      
+       
+    }
+   .projectdetailssbox
+
+
+
 }
 .projectdetailssbox{
     padding-left: 10px;
@@ -45,6 +99,11 @@ margin: 20px;
  width: 230px;
  height: 230px;
     }
+.projectrightbox img{
+        width: 230px;
+        height: 230px;
+           }
+    
 .projectblog{
     margin-left: 13px;
 font-family: 'Ubuntu';
@@ -80,14 +139,3 @@ padding-right: 10px;
 
 
 
-.projectrightbox{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* Rectangle 2075 */
-    height: 230px;
-    background: #FFFFFF;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
-    margin: 20px;
-}
