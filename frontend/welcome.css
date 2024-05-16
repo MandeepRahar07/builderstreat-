@@ -94,6 +94,7 @@ font-size: 56px;
     .mainContainer {
         flex-direction: column; /* Change flex direction to column */
         align-items: center; /* Adjust alignment as needed */
+        justify-content: center;
         
     }
      .rightsideContainer {
@@ -110,29 +111,47 @@ font-size: 56px;
     .mainContainer{
        
        
-        height: 1100px;
+        height: 1000px;
         
       
       
     }
 }
+#myVideo{
+    width: 566px;
+    height: 566px;
+}
 @media screen and (max-width: 675px) {
     .rightsideContainer {
-       display:none;
+       /* display:none; */
        
         
     }
-    .mainContainer{
+    #myVideo{
+        width: 266px;
+        height: 266px;
        
-       
-        height:100%;
-        
-      
-      
+    }
+    .buttongetStared{
+        margin-bottom: 30px;
+         }
+         .welcomevedio{
+            margin-bottom: 30px;
+         }
+    .greenborderrighttop{
+        position: absolute;
+        width: 276px;
+        height: 276px;
     }
     .leftsideContainer{
         width: 100%;
         margin-bottom:0px;
+    }
+    .mainContainer{
+       
+       
+        height: 950px;
+        
     }
 }
 

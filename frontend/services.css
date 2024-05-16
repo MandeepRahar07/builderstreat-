@@ -88,7 +88,7 @@ stroke: #6E7E1D;
     justify-content: center;
     align-items: flex-start;
     height: 315px;
-    max-width:379px;
+    max-width:349px;
     width: 100%;
     /* width:100%; */
       background-color: #FFFFFF;
@@ -99,6 +99,7 @@ stroke: #6E7E1D;
     background: #6E7E1D;
 
 }
+
 .service-type
 {
     font-family: Montserrat;
@@ -130,6 +131,9 @@ margin:0px;;
     .services-main
     {
         margin-top: 10px;
+    }
+    .srow{
+        margin: auto;
     }
    
   }

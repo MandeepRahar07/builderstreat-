@@ -999,9 +999,12 @@ line-height: 180%;
 letter-spacing: 0.0015em;
 color: #646464;
 
+
 padding-right: 10px;
+text-overflow: ellipsis;
 
 }
+
 
 
 
@@ -1972,6 +1975,12 @@ padding-left:10px; ;
     }
     .flinks{
         margin-top:20px; ;
+    }
+    .contentwillsee{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
    
   }

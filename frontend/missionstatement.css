@@ -211,12 +211,9 @@ width: 90%;
 margin-top: 200px;
 background: linear-gradient(180deg, rgba(0, 0, 0, 0) 40.5%, #000000 100%);
 }
-@media screen and (max-width: 550px) {
-    .missinimagess{
-       display: none;
-       
-        }
-}
+
+    
+
 
 .firstline{
    /* margin-top: 5%; */
@@ -259,3 +256,74 @@ color: #646464;
 
 
 }
+
+
+@media screen and (max-width: 550px) {
+    .missioncontainer{
+            flex-direction: column;
+        }
+        
+       
+            .missionleftbox {
+                width: 100%;
+                margin-left: 20px;
+        }
+
+        
+        .missionrightbox {
+            width: 60%;
+           
+        }
+
+        .missionrightbox {
+       
+     
+            height: 190px;
+          padding-right: 1%; 
+           
+       }
+            .imagebackground{
+                width: 70%; 
+            }
+            .missiondetails
+            {
+                height: 100%;
+            }
+
+            .missionsecondcontainer{
+                flex-direction: column;
+            }
+            .missionsecondleftbox{
+                width: 100%;
+                margin-top: -120px;
+            }
+            .missionsecondrightbox{
+                width: 100%;
+            }
+          
+    }
+
+    @media screen and (max-width: 780px) and (min-width: 550px) {
+        .missionrightbox {
+            /* width: 60%; */
+            height: 235px;
+        }
+        .missiondetails {
+            height: 100%;
+        }
+    }
+
+    @media screen and (max-width: 830px) and (min-width: 780px) {
+        .missionrightbox {
+            /* width: 60%; */
+            height: 240px;
+        }
+        .missiondetails {
+            height: 100%;
+        }
+     
+    }
+    
+    @media screen and (min-width: 1300px) {
+      
+    }
