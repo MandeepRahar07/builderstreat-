@@ -95,6 +95,18 @@ color: #646464;
     box-shadow: 0 0 5px rgba(0, 0, 0, .3);
     margin-top: 16px;
     border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plus
+{
+    width: 24px;
+height: 24px;
+
+padding: 2px;
+
+
 }
 
 .ab_accordion_header.active {

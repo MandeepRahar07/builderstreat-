@@ -1,4 +1,131 @@
-.mainContainer{
+/* .mainContainer{
+    display: flex;
+    justify-content: flex-start;
+    
+    width: 85%;
+    margin: auto;
+   height: 100%;
+    margin-top: 40px;
+}
+
+.leftsideContainer{
+    width: 50%;
+    margin-top: 30px;
+}
+.welcometobuildersTreat {
+    color: #6E7E1D;
+    font-size: 13px;
+    font-family: 'Montserrat';
+   
+    text-transform: uppercase; 
+}
+.leftsideContainer h1
+  {
+    font-family: 'Ubuntu';;
+font-weight: bold;
+font-size: 56px;
+  }
+  .rightsideContainer {
+   
+   width: 50%;
+  
+    position: relative;
+  
+   
+}
+
+  .welcomeDetails{
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #646464;
+    line-height: 36px;
+  
+    padding-right: 4%;
+  }
+
+.buttongetStared{
+    color: white;
+    font-size: 16px;
+    background-color: #6E7E1D;
+    padding: 20px;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight:400;
+    margin-top: 15px;
+}
+
+
+
+  
+
+
+
+.greenborderrighttop {
+    position: absolute;
+    top: -25px;
+    margin-left: 25px;
+    width: 576px;
+    height: 576px;
+    background-color: #6E7E1D;
+    z-index: 0; 
+}
+
+.welcomevedio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1200px) {
+    .mainContainer {
+        flex-direction: column; 
+        align-items: center; 
+        
+    }
+     .rightsideContainer {
+        width: 100%;
+        height: 800%;
+       
+       
+        
+    }
+    .leftsideContainer{
+        width: 100%;
+        margin-bottom:60px ;
+    }
+    .mainContainer{
+       
+       
+        height: 1100px;
+        
+      
+      
+    }
+}
+@media screen and (max-width: 675px) {
+    .rightsideContainer {
+       display:none;
+       
+        
+    }
+    .mainContainer{
+       
+       
+        height:100%;
+        
+      
+      
+    }
+    .leftsideContainer{
+        width: 100%;
+        margin-bottom:0px;
+    }
+}
+ */
+ .mainContainer{
     display: flex;
     justify-content: flex-start;
     /* align-items: center; */
@@ -116,6 +243,10 @@ font-size: 56px;
       
       
     }
+}
+#myVideo{
+    width: 566px;
+    height: 566px;
 }
 #myVideo{
     width: 566px;

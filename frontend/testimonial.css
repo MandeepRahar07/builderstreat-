@@ -90,7 +90,7 @@ margin-top: 15px;
    
     justify-content: center;
     align-items: flex-start;
-    max-width: 390px;
+    max-width: 360px;
     width:100%;
 position: relative;
 height: 330px;
@@ -124,8 +124,8 @@ opacity: 0px;
   display:flex;
   justify-content: space-between;
   align-items: flex-end;
- 
-  gap:115px;
+ width: 100%;
+  gap:70px;
   margin-top: 15px;
  padding-top: 20px;
   border-top: 1px solid #D8D8D8
