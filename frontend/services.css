@@ -94,9 +94,11 @@ stroke: #6E7E1D;
       background-color: #FFFFFF;
       border-radius: 10px;
       /* padding-top: 50px; */
+      transition: transform 0.6s ease-in-out ;
 }
 .scol:hover{
     background: #6E7E1D;
+    transform: scale(1.05);
 
 }
 

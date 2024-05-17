@@ -75,8 +75,12 @@ padding-left: 0px;
 padding-bottom: 10px; */
 /* width: 100%; */
 width: 500px;
+transition: transform 0.3s ease-in-out;
 }
 
+.projectleftbox:hover{
+    transform:scale(1.05);
+}
 
 
 

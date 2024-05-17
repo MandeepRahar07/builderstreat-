@@ -17,31 +17,46 @@
            
             <div class="nav-links">
                 <div class="logo1"> <a href="#" >
-                    <image src="./images/logo.png" 
-                   ></image>
+                    <img src="./images/logo.png" alt="logo">
                 </a></div>
                 <div class="link"> <a href="#" >Home</a></div>
                 <div class="link">  <a href="#" >About Us</a></div>
                 <div class="link"><a href="#" >What We Do</a></div>
-                <div class="link"><a href="#">our categories</a></div>
-                <div class="link"><a href="#">knowledge center</a></div>
+                <div class="link"><a href="#">Our Categories</a></div>
+                <div class="link"><a href="#">Knowledge Center</a></div>
                 <div class="link"><a href="#">Pricing</a></div>
-
                 <div class="link"><a href="#">Our Team</a></div>
-                <div class="link"><a href="#">testimonial</a></div>
+                <div class="link"><a href="#">Testimonial</a></div>
                 <div class="link"><a href="#">FAQs</a></div>
-                <div class="dropdown ">
-                    <a href="#" class="dropbtn">Login/Register <image
-                        src="./images/arrow.png"></image></a>
-                    <div class="dropdown-content">
+                <div class="dropdown">
+                    <a href="#" class="dropbtn" id="dropbtn">Login/Register <img src="./images/arrow.png" alt="arrow"></a>
+                    <div class="dropdown-content" id="dropdown-content">
                         <a href="#" class="drop">Buyer</a>
-                        <a href="#"  class="drop">Seller</a>
-
+                        <a href="#" class="drop">Seller</a>
                     </div>
-            
                 </div>
             </div>
         </nav>
     </div>
+    <script >
+
+document.addEventListener("DOMContentLoaded", function() {
+    const dropbtn = document.getElementById("dropbtn");
+    const dropdownContent = document.getElementById("dropdown-content");
+
+    dropbtn.addEventListener("click", function(event) {
+        event.preventDefault();
+        dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
+    });
+
+    // Close the dropdown if the user clicks outside of it
+    window.addEventListener("click", function(event) {
+        if (!dropbtn.contains(event.target) && !dropdownContent.contains(event.target)) {
+            dropdownContent.style.display = "none";
+        }
+    });
+});
+
+    </script>
 </body>
 </html>

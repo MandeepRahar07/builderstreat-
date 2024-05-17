@@ -37,36 +37,45 @@
 
 
     <div>
-       
         <nav class="navbar">
            
             <div class="nav-links">
                 <div class="logo1"> <a href="#" >
-                    <image src="./images/logo.png" 
-                   ></image>
+                    <img src="./images/logo.png" alt="logo">
                 </a></div>
                 <div class="link"> <a href="#" >Home</a></div>
-                <div class="link">  <a href="#" >About Us</a></div>
-                <div class="link"><a href="#" >What We Do</a></div>
-                <div class="link"><a href="#">our categories</a></div>
-                <div class="link"><a href="#">knowledge center</a></div>
-                <div class="link"><a href="#">Pricing</a></div>
-
-                <div class="link"><a href="#">Our Team</a></div>
-                <div class="link"><a href="#">testimonial</a></div>
-                <div class="link"><a href="#">FAQs</a></div>
-                <div class="dropdown ">
-                    <a href="#" class="dropbtn">Login/Register <image
-                        src="./images/arrow.png"></image></a>
-                    <div class="dropdown-content">
+                <div class="link"><a href=".aboutContainer">About Us</a></div>
+                <div class="link"><a href=".missionsecondcontainer" >What We Do</a></div>
+                <div class="link"><a href=".our-categories">Our Categories</a></div>
+                <div class="link"><a href=".projectcontainer">Knowledge Center</a></div>
+                <div class="link"><a href=".pricing-main">Pricing</a></div>
+                <div class="link"><a href=".team-main">Our Team</a></div>
+                <div class="link"><a href=".test-main">Testimonial</a></div>
+                <div class="link"><a href=".FAQ">FAQs</a></div>
+                <div class="dropdown">
+                    <a href="#" class="dropbtn" id="dropbtn">Login/Register <img src="./images/arrow.png" alt="arrow"></a>
+                    <div class="dropdown-content" id="dropdown-content">
                         <a href="#" class="drop">Buyer</a>
-                        <a href="#"  class="drop">Seller</a>
-
+                        <a href="#" class="drop">Seller</a>
                     </div>
-            
                 </div>
             </div>
+            <div>
+        </div>
+            <!-- <div class="menu-icon" id="dropdown-content1" >
+                &#9776; 
+                <div class="link"> <a href="#" >Home</a></div>
+                <div class="link"><a href=".aboutContainer">About Us</a></div>
+                <div class="link"><a href=".missionsecondcontainer" >What We Do</a></div>
+                <div class="link"><a href=".our-categories">Our Categories</a></div>
+                <div class="link"><a href=".projectcontainer">Knowledge Center</a></div>
+                <div class="link"><a href=".pricing-main">Pricing</a></div>
+                <div class="link"><a href=".team-main">Our Team</a></div>
+                <div class="link"><a href=".test-main">Testimonial</a></div>
+                <div class="link"><a href=".FAQ">FAQs</a></div>
+            </div> -->
         </nav>
+        
     </div>
 
 <!-- ____________________________________________---------------------------_____________________________________________________________ -->
@@ -93,6 +102,9 @@
               <div class="greenborderrighttop">
                   
               </div>
+              <div>
+
+              
               <div class="welcomevedio">
                 <video id="myVideo" width="566px" height="566px"  muted autoplay loop>
                     <source src="Builderstreet video.mp4" type="video/mp4">
@@ -107,7 +119,7 @@
                 </script>
                 
               </div>
-          
+            </div>
             </div>
         </section>
       </div>
@@ -743,7 +755,7 @@
                     </div>
                     <div class="ab_accordion_content">
                         BuildersTreat is a technology company specializing in creating solutions that expand the capabilities of the Construction and Demolition (C&D) waste recycling industry. Our digital marketplace connects companies and individuals with C&D waste to other parties that will either use it for a new purpose or efficiently recycle or dispose of it, promoting a more sustainable construction industry.
-                        
+
                     </div>
                 </div>
                 <div class="ab_accordion_section">
@@ -948,4 +960,47 @@ function toggleAccordion(header) {
 
 
     </div>
+
+    <script >
+
+document.addEventListener("DOMContentLoaded", function() {
+    const dropbtn = document.querySelector(".dropbtn");
+    const dropdownContent = document.querySelector(".dropdown-content");
+
+    dropbtn.addEventListener("click", function(event) {
+        event.preventDefault();
+        dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
+    });
+
+    // Close the dropdown if the user clicks outside of it
+    window.addEventListener("click", function(event) {
+        if (!dropbtn.contains(event.target) && !dropdownContent.contains(event.target)) {
+            dropdownContent.style.display = "none";
+        }
+    });
+});
+
+
+document.querySelectorAll('a[href^="."]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetClass = this.getAttribute('href').substring(1);
+        const targetElement = document.querySelector(`.${targetClass}`);
+
+        if (targetElement) {
+            targetElement.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+function toggleMenu() {
+            var navLinks = document.getElementById('nav-links');
+            if (navLinks) {
+                navLinks.classList.toggle('show');
+            }
+        }
+            </script>
 </body>
