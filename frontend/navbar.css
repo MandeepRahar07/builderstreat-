@@ -53,7 +53,7 @@ height: 60px;
 .link a{
    
     font-family: Montserrat;
-font-size: 14px;
+font-size: 12px;
 font-weight: 500;
 line-height: 17.07px;
 text-decoration: none;
@@ -192,13 +192,16 @@ line-height: 18.38px;
     width: 100px; /* Adjust as needed */
     height: auto; /* Maintain aspect ratio */
   }
-  
+  .navbar {
+    width: 89%;
+    margin: auto;
+}
   /* Style the navigation links */
   .nav-links {
     list-style-type: none;
     margin: auto;
     /* padding: ; */
-    width: 89%;
+    width: 100%;
   }
   
   .menu-icon {

@@ -99,7 +99,7 @@ transition: transform 0.3s ease-in-out;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 700;
-font-size: 25px;
+font-size: 22px;
 line-height: 60px;
 letter-spacing: -0.5px;
 
@@ -173,7 +173,7 @@ color: #646464;
                 }
                 .projectblog {
                     
-                    font-size: 18px;
+                    font-size: 10px;
                     margin-left: 5px;
                     
                 }
