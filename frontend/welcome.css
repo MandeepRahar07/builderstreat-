@@ -282,7 +282,14 @@ font-size: 56px;
        
        
         height: 950px;
+        margin-top: 75px;
         
     }
+    .leftsideContainer h1
+  {
+    font-family: 'Ubuntu';;
+font-weight: bold;
+font-size: 45px;
+  }
 }
 

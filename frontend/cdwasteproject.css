@@ -25,16 +25,14 @@ color: #323232;
 {
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
 }
 .projectsecondcontainer{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 500px; */
-    /* margin: auto; */
-
+    width:90% ;
 
 }
 /* @media only screen and (max-width: 1000px) {
@@ -125,7 +123,7 @@ line-height: 180%;
 letter-spacing: 0.0015em;
 color: #646464;
 
-padding-right: 10px;
+
 
 }
 
@@ -157,7 +155,34 @@ padding-right: 10px;
         height: 230px;
            }
    
-
+           .projectleftbox{
+  
+            margin-top: 10px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            
+            }
+            .projectrightbox{
+  
+                margin-top: 10px;
+                margin-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                
+                }
+                .projectblog {
+                    
+                    font-size: 18px;
+                    margin-left: 5px;
+                    
+                }
+                .projectblogdetails {
+                 
+                    font-size: 11px;
+                    margin-left: 5px;
+                    
+                }
 
 
 }
