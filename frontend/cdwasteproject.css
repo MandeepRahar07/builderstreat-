@@ -161,6 +161,7 @@ color: #646464;
             margin-bottom: 0px;
             margin-left: 0px;
             margin-right: 0px;
+            padding-right: 0px;
             
             }
             .projectrightbox{
@@ -169,20 +170,31 @@ color: #646464;
                 margin-bottom: 0px;
                 margin-left: 0px;
                 margin-right: 0px;
-                
+                padding-right: 0px;
                 }
                 .projectblog {
                     
-                    font-size: 10px;
+                   
                     margin-left: 5px;
+                  
+                    font-family: 'Ubuntu';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 27px;
+                    letter-spacing: -0.5px;
+                    margin-bottom: 1px;;
                     
                 }
                 .projectblogdetails {
                  
                     font-size: 11px;
                     margin-left: 5px;
+                    margin-top:1px ;
+                    margin-bottom: 0px;
                     
                 }
+               
 
 
 }

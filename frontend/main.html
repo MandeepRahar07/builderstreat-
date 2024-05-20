@@ -13,6 +13,9 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+        <link rel="stylesheet" type="text/css"
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" href="services.css">
     <link rel="stylesheet" href="mostpopular.css">
     <link rel="stylesheet" href="pricing.css">
@@ -37,33 +40,7 @@
 
 
     <div>
-        <!-- <nav class="navbar">
-           
-            <div class="nav-links">
-                <div class="logo1"> <a href="#" >
-                    <img src="./images/logo.png" alt="logo">
-                </a></div>
-                <div class="link"> <a href="#" >Home</a></div>
-                <div class="link"><a href=".aboutContainer">About Us</a></div>
-                <div class="link"><a href=".missionsecondcontainer" >What We Do</a></div>
-                <div class="link"><a href=".our-categories">Our Categories</a></div>
-                <div class="link"><a href=".projectcontainer">Knowledge Center</a></div>
-                <div class="link"><a href=".pricing-main">Pricing</a></div>
-                <div class="link"><a href=".team-main">Our Team</a></div>
-                <div class="link"><a href=".test-main">Testimonial</a></div>
-                <div class="link"><a href=".FAQ">FAQs</a></div>
-                <div class="dropdown">
-                    <a href="#" class="dropbtn" id="dropbtn">Login/Register <img src="./images/arrow.png" alt="arrow"></a>
-                    <div class="dropdown-content" id="dropdown-content">
-                        <a href="#" class="drop">Buyer</a>
-                        <a href="#" class="drop">Seller</a>
-                    </div>
-                </div>
-            </div>
-            <div>
-        </div>
-          
-        </nav> -->
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
             <a class="navbar-brand logo1 " href="#">
@@ -674,6 +651,48 @@
         
         </div>
 <!-- --------------------------------------------------------------------------------------****************************************         -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Slick Slider JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            dots: true,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    });
+</script>
 
 <div>
     <div class="test-main">
@@ -689,8 +708,8 @@
           </div>
  
  
-          <div class="row testr">
-             <div class="col col-sm-12   col-md-4 testc">
+          <div class="row testr ">
+             <div class="col col-sm-12   col-md-4 testc ">
                 <div class="person"><image src="./images/p1.png"></image></div>
                 <div class="textinthewrap">
 
@@ -716,7 +735,7 @@
                 </div>
  
              </div>
-             <div class="col col-sm-12  col-md-4 testc">
+             <div class="col col-sm-12  col-md-4 testc ">
                 <div class="person"><image src="./images/p2.png"></image></div>
                 <span class="test-text">"We were skeptical at first, but after seeing the results in our first project with BuildersTreat, we knew we had found a partner we could trust. Their commitment to quality and customer satisfaction is unmatched."</span>
                 <div class="name-rating">
@@ -736,7 +755,7 @@
                    </div>
                 </div>
              </div>
-             <div class="col col-sm-12  col-md-4 testc">
+             <div class="col col-sm-12  col-md-4 testc ">
                 <div class="person"><image src="./images/p3.png"></image></div>
                 <span class="test-text">"BuildersTreat not only helped us complete our project on time and on budget but also offered valuable insights that improved the overall design and functionality of our building. We couldn't be happier with the outcome."</span>
                 <div class="name-rating">
@@ -756,6 +775,7 @@
                    </div>
                 </div>
              </div>
+             
           </div>
  
  

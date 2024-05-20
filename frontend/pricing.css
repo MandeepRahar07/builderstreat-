@@ -67,6 +67,7 @@ margin-top: 70px;
   position: relative;
     background-color: #FFFFFF;
     border-radius: 18px;
+    transition: transform 0.6s ease-in-out ;
   
 }
 
@@ -74,8 +75,7 @@ margin-top: 70px;
 .pcol:hover{
     background-color: #6E7E1D;
 
-    /* width: 400.86px;
-    height: 582.5px; */
+    transform: scale(1.05);
     
     
 }
