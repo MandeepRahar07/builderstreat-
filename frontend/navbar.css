@@ -53,11 +53,13 @@ height: 60px;
 .link a{
    
     font-family: Montserrat;
-font-size: 12px;
+font-size: 14px;
 font-weight: 500;
 line-height: 17.07px;
 text-decoration: none;
 color: #646464;
+text-shadow:0px 4px 4px 0px #00000040;
+
 
 
 transition: transfrom 0.8s ease-in-out;
@@ -193,7 +195,7 @@ line-height: 18.38px;
     height: auto; /* Maintain aspect ratio */
   }
   .navbar {
-    width: 89%;
+    width: 100%;
     margin: auto;
 }
   /* Style the navigation links */

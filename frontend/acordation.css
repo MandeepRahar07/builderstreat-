@@ -121,6 +121,8 @@ padding: 2px;
     border-left: 1px solid #ededed;
     border-right: 1px solid #ededed;
     border-bottom: 1px solid #ededed;
+    text-align: justify;
+text-justify: inter-word;
 }
 
 .ab_accordion_header i {

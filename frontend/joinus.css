@@ -50,8 +50,9 @@
   font-size: 17px;
   font-weight: 500;
   line-height: 26px;
-  text-align: left;
   
+  text-align: justify;
+text-justify: inter-word;
     color:#FFFFFF;
 
     

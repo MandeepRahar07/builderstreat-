@@ -38,7 +38,7 @@ color: #1B3138;
 }
 .missiondetails{
     margin-top: -2%;
-width: 83%;
+width: 77%;
 height: 290px;
 font-family: 'Ubuntu';
 font-style: normal;
@@ -46,6 +46,9 @@ font-weight: 400;
 font-size: 15px;
 line-height: 180%;
 letter-spacing: 0.15px;
+text-align: justify;
+text-justify: inter-word;
+
 
 /* Medium Dark */
 color: #646464;
@@ -148,7 +151,8 @@ font-size: 14px;
 line-height: 180%;
 /* or 29px */
 letter-spacing: 0.0015em;
-
+text-align: justify;
+text-justify: inter-word;
 color: #646464;
 
 
@@ -185,6 +189,7 @@ color: #646464;
             .missiondetails
             {
                 height: 100%;
+                width: 100%;
             }
 
             .missionsecondcontainer{
@@ -207,6 +212,7 @@ color: #646464;
         }
         .missiondetails {
             height: 100%;
+            
         }
     }
 

@@ -30,7 +30,7 @@ margin-bottom: 50px;
     letter-spacing: 0.0015em;
     /* margin-left:160px;  */
     color: #A8BC25;
-    text-align: left;
+    text-align: center;
 
     
 }
@@ -41,7 +41,7 @@ margin-bottom: 50px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: -0.5px;
-    text-align: left;
+    text-align: center;
     color: #323232;
     margin-top: 15px;
     /* margin-left:160px; */
@@ -112,10 +112,12 @@ opacity: 0px;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
-  line-height: 28.8px;
+  
   letter-spacing: 0.0015em;
-  text-align: left;
+ 
   color: #646464;
+  text-align: justify;
+text-justify: inter-word;
 
   
 }
@@ -190,7 +192,7 @@ align-items: center;
 
   .testc
   {
-    margin-top:20px ;
+    margin-top:0px ;
   }
 }
 
@@ -199,12 +201,12 @@ align-items: center;
 @media only screen and (max-width: 700px) {
  
 
-  .testl1,
+  /* .testl1,
   .testl2,
   .testl3
   {
     margin-left:45px;
-  }
+  } */
   .test-main
   {
     justify-content: center;
@@ -214,7 +216,7 @@ align-items: center;
 @media only screen and (max-width:1600px) {
   .testc
   {
-    margin-top:20px ;
+    margin-top:30px ;
   }
 
 }

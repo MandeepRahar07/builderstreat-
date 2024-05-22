@@ -2,6 +2,10 @@
   
     width: 85%;
 margin: auto;
+align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 .most-popular-categories {
@@ -17,6 +21,7 @@ margin: auto;
     letter-spacing: -0.5px;
     text-transform: capitalize;
     color: #323232;
+    text-align: center;
 }
 
 .our-categories {
@@ -31,7 +36,9 @@ margin: auto;
     letter-spacing: 0.0015em;
     text-transform: uppercase;
     color: #A8BC25;
+    text-align: center;
 }
+
 
 .c-d-waste{
 margin-top: 4%;
@@ -44,10 +51,14 @@ line-height: 180%;
 letter-spacing: 0.0015em;
 text-transform: uppercase;
 color: #A8BC25;
+text-align: center;
 }
 
 .missionunderline{
     background-color: black;
     width: 100px;
     height: 2px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }

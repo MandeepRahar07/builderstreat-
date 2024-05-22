@@ -60,7 +60,9 @@ text-align: center;
     line-height: 180%;
     /* or 29px */
     letter-spacing: 0.0015em;
-    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+
     color: #FFFFFF;
     
     

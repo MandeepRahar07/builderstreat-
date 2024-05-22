@@ -842,6 +842,7 @@ stroke: #6E7E1D;
     line-height: 25.2px;
     text-align: left;
     color: #111010;
+    
    
 }
 .service-det
@@ -852,6 +853,8 @@ stroke: #6E7E1D;
     line-height: 17.07px;
     text-align: left;
     color: #686868;
+    text-align: justify;
+text-justify: inter-word;
 
     
 }

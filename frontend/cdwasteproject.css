@@ -125,6 +125,8 @@ color: #646464;
 
 
 
+
+
 }
 
 
@@ -137,12 +139,16 @@ color: #646464;
       
        
     }
+    .projectheading {
+        width: 90%;
+    }
+
    
 
 
 
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
 
     .projectsecondcontainer{
       
